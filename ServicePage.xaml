@@ -52,6 +52,7 @@
             <RadioButton Content="По возрастанию стоимоссти" GroupName="Sort" Width="300" FontSize="20" Checked="RButtonUP_Checked" Name="RButtonUP"></RadioButton>
             <RadioButton Content="По убыванию стоимости" GroupName="Sort" Width="300" FontSize="20" Checked="RButtonDown_Checked" Name="RButtonDown"></RadioButton>
         </StackPanel>
+            
         <ListView Name="ServiceListView" Grid.Row="2">
             
             <ListView.ItemTemplate>
